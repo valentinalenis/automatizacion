@@ -39,7 +39,7 @@ public class StepImplementation {
         TraductorPage traductorPage = new TraductorPage(driver);
         String result = traductorPage.translatedWord();
         Gauge.captureScreenshot();
-        assertEquals("text", result);
+        assertEquals("Hola", result);
     }
     
 }
